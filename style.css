@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.hero-section {
+  background-color: #212931;
+  padding: 1rem 14.5rem;
+}
+.hero-container {
+  display: flex;
+  position: relative;
+  height: 60vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+}
+.navbar > ul {
+  display: flex;
+  gap: 1rem;
+}
+.navbar > ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+.hero-container > div:nth-child(2) {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  color: #fff;
+  text-align: start;
+  padding-top: 5.5rem;
+  flex: 1;
+}
+.hero-text > div:nth-child(1) {
+  font-size: 24px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.left-r-text {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.hero-text > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+.contact-section {
+  border: 2px solid blue;
+  background-color: #151a1f;
+  color: #fff;
+  position: relative;
+}
+.contact-section > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  gap: 12rem;
+  padding: 2rem 14.5rem 0;
+}
+.contact-section > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  padding: 0 14.5rem 12rem;
+}
+.contact-sub > div > p {
+  padding-bottom: 20px;
+}
+.contact-sub > div:nth-child(1) > a {
+  color: yellow;
+}
+.years-experience {
+  display: flex;
+  gap: 2rem;
+}
+.years-experience > div {
+  display: flex;
+  gap: 0.5rem;
+  width: 6rem;
+}
+.years-experience > div > span {
+  color: yellow;
+  font-weight: 900;
+  font-size: 36px;
+}
+.years-experience > div > p {
+  font-size: 12px;
+  padding: top 2px;
+}
+.services-section {
+  position: relative;
+}
+.services-container {
+  position: absolute;
+  top: -80px;
+  border: 2px solid red;
+  display: flex;
+  gap: 2rem;
+  padding: 16rem 14.5rem 0;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #212931;
+}
+.services-container > div {
+  padding: 6rem 4rem;
+  background-color: #212931;
+}
+.services-container > span {
+  position: absolute;
+  top: 20px;
+}
+.services-container > div:hover {
+  background-color: yellow;
+}
