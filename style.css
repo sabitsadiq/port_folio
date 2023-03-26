@@ -184,8 +184,6 @@ body {
 }
 .blog-container {
   display: flex;
-
-  /* margin: 5rem 0; */
 }
 .blog-container-text {
   display: flex;
@@ -346,5 +344,99 @@ body {
   }
   .creative-work-background {
     padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero-text {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+    padding: 0;
+  }
+  .left-r {
+    height: 100%;
+    /* border: 2px solid blue; */
+  }
+  .left-r-text {
+    width: 20rem;
+  }
+  .right-r > div:nth-child(1) {
+    display: none;
+  }
+  .contact-section > div {
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .contact-section > div:nth-child(1) {
+    gap: 0;
+  }
+  .contact-section > div:nth-child(2) {
+    gap: 2rem;
+  }
+  .services-section {
+    padding: 1.5rem;
+  }
+  .services-container > div:nth-child(1),
+  .services-container > div:nth-child(2),
+  .services-container > div:nth-child(3) {
+    position: static;
+    gap: 2rem;
+    margin-bottom: 1.8rem;
+    border-radius: 5px;
+  }
+  .creative-work-background {
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 200vh;
+  }
+  .creative-work-left {
+    /* border: 2px solid yellow; */
+  }
+  .creative-work-right {
+    /* border: 2px solid white; */
+  }
+  .blog-section {
+    padding: 1rem 1.5rem;
+    /* border: 2px solid blue; */
+  }
+  .blog-container {
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .blog-container > div:nth-child(2) {
+    text-align: start;
+  }
+  .blog-right-container > div > span {
+    margin-right: 20px;
+    /* border: 2px solid yellow; */
+  }
+  .blog-right-container > div > span:nth-child(3) {
+    width: 3px;
+    font-size: 16px;
+    /* border: 2px solid blue; */
+  }
+  .quote-container {
+    flex-direction: column;
+  }
+  .quote-container > div:first-child {
+    /* border: 2px solid blue; */
+  }
+  .quote-container img {
+    border-radius: 10%;
+    width: 60%;
+    padding: 2px auto;
+  }
+  .project-section {
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+  }
+  .footer-section {
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .blog-right-container > div > span {
+    margin-right: 5px;
   }
 }
