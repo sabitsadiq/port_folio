@@ -417,6 +417,9 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
+  .contact-section > div:nth-child(1) {
+    margin-top: 30rem;
+  }
   .blog-right-container > div > span {
     margin-right: 5px;
   }
